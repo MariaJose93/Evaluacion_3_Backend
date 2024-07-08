@@ -1,0 +1,120 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "MariaJose_Gomez",
+    "collectionId": "d0a59105-9331-450d-9aa1-dae428da354e",
+    "dateExported": "2024-07-08T14:00:35.739Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "50f063a5-9229-457a-90f6-46cb56cdfc8b",
+            "colId": "d0a59105-9331-450d-9aa1-dae428da354e",
+            "containerId": "",
+            "name": "visualizar_libros",
+            "url": "localhost:3000/libros",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-08T13:14:31.705Z",
+            "modified": "2024-07-08T13:14:31.705Z",
+            "headers": []
+        },
+        {
+            "_id": "ae8d9af6-794d-4575-8f24-d4188ef51316",
+            "colId": "d0a59105-9331-450d-9aa1-dae428da354e",
+            "containerId": "",
+            "name": "agregar_libro",
+            "url": "localhost:3000/libros",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-08T13:15:24.448Z",
+            "modified": "2024-07-08T13:18:36.015Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"El principito\",\n  \"autor\": \"Antoine de Saint-Exupéry\",\n  \"precio\": 31290,\n  \"stock\": 25\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6059665b-e448-4545-aa4a-875b78de5b0f",
+            "colId": "d0a59105-9331-450d-9aa1-dae428da354e",
+            "containerId": "",
+            "name": "modificar_libros",
+            "url": "localhost:3000/libros/9",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-07-08T13:19:32.128Z",
+            "modified": "2024-07-08T13:25:21.011Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"nombre\": \"El alquimista\",\n   \"autor\": \"Paulo Coelho\",\n   \"precio\": 24500,\n   \"stock\": 15\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4d209819-d359-41aa-be68-ebceef3acf21",
+            "colId": "d0a59105-9331-450d-9aa1-dae428da354e",
+            "containerId": "",
+            "name": "eliminar_libro",
+            "url": "localhost:3000/libros/3",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-07-08T13:26:52.639Z",
+            "modified": "2024-07-08T13:27:45.716Z",
+            "headers": []
+        },
+        {
+            "_id": "7e15c099-61c9-41f8-a1c5-def1f723dd59",
+            "colId": "d0a59105-9331-450d-9aa1-dae428da354e",
+            "containerId": "",
+            "name": "registrar_usuario",
+            "url": "localhost:3000/register",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-08T13:43:44.718Z",
+            "modified": "2024-07-08T13:45:14.250Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"vale@princesa.cl\",\n  \"pass\": \"mariposa\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5b77e343-9a89-46af-b416-4b580e1951e5",
+            "colId": "d0a59105-9331-450d-9aa1-dae428da354e",
+            "containerId": "",
+            "name": "login_usuario",
+            "url": "localhost:3000/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-07-08T13:46:08.060Z",
+            "modified": "2024-07-08T13:46:40.530Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"vale@princesa.cl\",\n  \"pass\": \"mariposa\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "061b81d6-0c5f-4c56-b7b6-255a9bdbb70a",
+            "colId": "d0a59105-9331-450d-9aa1-dae428da354e",
+            "containerId": "",
+            "name": "ver_con_login",
+            "url": "localhost:3000/libros",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-07-08T13:48:22.381Z",
+            "modified": "2024-07-08T13:49:23.697Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGVAcHJpbmNlc2EuY2wiLCJpYXQiOjE3MjA0NDY0MDB9.n2IKkOMAw20P17uXhOThxbV_2U6K0BWNf7d1ZgWJIUw"
+                }
+            ]
+        }
+    ],
+    "ref": "rkDSBeXeom2pbTmJTZtaxjOd0yLbnyqrGiBJjjr5A7q6-lz1g3l611m9FB_TBwksKd326CxSV-sU7f_as7jzgA"
+}
